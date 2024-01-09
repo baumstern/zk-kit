@@ -16,7 +16,7 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: "20"
-            #       cache: yarn
+                  cache: yarn
 
             # - name: Get yarn cache directory path
             #   id: yarn-cache-dir-path
@@ -56,7 +56,7 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: "20"
-                #   cache: yarn
+                  cache: yarn
 
             # https://github.com/iden3/circuits/blob/8fffb6609ecad0b7bcda19bb908bdb544bdb3cf7/.github/workflows/main.yml#L18-L22
             - name: Setup Circom deps
